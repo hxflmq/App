@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>足球圈主页</title>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./iconfont/iconfont.css">
+ <link rel="stylesheet" href="./css/index.css">
+ <link rel="stylesheet" href="./css/dome.css">
+ <script src="./js/webApp.js"></script>
+</head>
+<body> 
+   <header>
+    <div class="header">
+      <a class="iconfont icon-toggle" href="#"></a>
+      <nav class="nav">
+       <a class="hot" href="#">热点</a>
+       <a class="like" href="#">关注</a>
+      </nav></div>
+      <nav class="left-nav">
+         <div class="ht"> </div>
+           <p>萌萌哒小妖精</p>
+            <p class="mn">这个家伙很懒，什么也没有留下...</p>
+            <ul>
+             <li><a href="#">足球现场</a></li>
+             <li><a href="#">足球生活</a></li>
+             <li><a href="#">足球美女</a></li>
+            </ul>
+      </nav>
+   </header>
+     
+   <section class="nav-list ">
+      <ul>
+       <li><a href="#">足球现场</a></li>
+       <li><a href="#">足球生活</a></li>
+       <li><a href="#">足球美女</a></li>
+      </ul>
+   </section>  
+   <article class="content">
+       <ul>
+        <li><a href=""><img src="./images/1.png" alt="" srcset=""></a>
+        <span>小丸子啊小丸子！</span></li>
+        <li><a href=""><img src="./images/2.png" alt="" srcset=""></a>
+        <span>萌萌哒小丸子啊萌萌啊啊啊啊啊啊啊</span></li>
+        <li><a href=""><img src="./images/3.png" alt="" srcset=""></a>
+        <span>小丸子啊小丸子！</span></li>
+        <li><a href=""><img src="./images/4.png" alt="" srcset=""></a>
+        <span>萌萌哒小丸子啊萌萌啊啊啊啊啊啊啊</span></li>
+        <li><a href=""><img src="./images/1.png" alt="" srcset=""></a>
+        <span>小丸子啊小丸子！</span></li>
+        <li><a href=""><img src="./images/1.png" alt="" srcset=""></a>
+        <span>萌萌哒小丸子啊萌萌啊啊啊啊啊啊</span></li>
+       </ul>
+   </article>
+
+   <footer>
+      <ul>
+       <li><a class="iconfont icon-yemian-copy" href="#"></a><span class="sou">首页</span></li>
+       <li><a class="iconfont icon-faxian" href="#"></a><span>发现</span></li>
+       <li><a class="iconfont icon-wode-copy" href="#"></a><span>我的</span></li>
+       <li><a class="iconfont icon-tuichu" href="#"></a><span>退出</span> <a class="iconfont icon-paizhao" id="di" href="#"> </a></li>
+      </ul>
+   </footer>
+  
+</body>
+<script>
+   var section = document.querySelector(".on");
+   var p = document.querySelector(".icon-toggle");
+   var g = document.querySelector(".left-nav");
+      p.addEventListener("click",function(e){
+         g.style.display = "block";
+      })
+</script>
+</html>
